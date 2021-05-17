@@ -67,10 +67,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\FED1StudioProjectStyles.css" />
+    <Content Include="favicon.ico" />
     <Content Include="HTML\Classes.html" />
     <Content Include="HTML\Contact.html" />
     <Content Include="HTML\index.HTML" />
     <Content Include="HTML\Team.html" />
+    <Content Include="Images\avi-richards-pYxkImx886M-unsplash.jpg" />
+    <Content Include="Images\Billiards_Rack.png" />
+    <Content Include="Images\Billiards_table_21-5bb0462ac9e77c005166ef4b.jpg" />
+    <Content Include="Images\freddy-g-Yy_5GCOwZ54-unsplash.jpg" />
+    <Content Include="Images\greg-jeanneau-4H9hWp56IHA-unsplash.jpg" />
+    <Content Include="Images\klara-kulikova-DUcVepObkXk-unsplash.jpg" />
+    <Content Include="Images\marcelo-leal-6UeBe2HqziA-unsplash.jpg" />
+    <Content Include="Images\pen-tsai-yUpn_S_x5BU-unsplash.jpg" />
+    <Content Include="Images\sven-mieke-wg_9zSqXgXE-unsplash.jpg" />
+    <Content Include="Images\tatiana-rodriguez-AZ90hSO6ORw-unsplash.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,8 +98,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS\" />
-    <Folder Include="Images\" />
     <Folder Include="JavaScript\" />
   </ItemGroup>
   <PropertyGroup>
