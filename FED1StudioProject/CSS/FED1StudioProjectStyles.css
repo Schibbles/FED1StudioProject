@@ -3,6 +3,10 @@
     font-weight:bold;
     font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
+h1.choose{
+    text-align:center;
+    font-size:3em;
+}
 h4 {
     font-weight: bold;
     text-decoration: underline;
@@ -20,12 +24,12 @@ nav ul li {
 
     nav ul li a {
         padding: 1em 5em;
-        diplay:block;
+        display:block;
     }
 
 nav a:hover, .selected {
     
-    color:antiquewhite;
+    color:tomato;
 }
 nav ul {
     background-color: RGBA(0,0,0,.7);
@@ -35,6 +39,7 @@ nav ul {
 
 h4{
     color: #FF0000;
+    font-size:large;
 }
 
 header{
@@ -65,14 +70,22 @@ nav{
     margin-top:1.5em;
 }
 
+img.tatiana{
+    float:left;
+    width:250px;
+    margin-right:5em;
+}
+
 img.marcelo{
     float:left;
     width:500px;
+    margin-right:5em;
 }
 
 img.sven{
     float:right;
-    width:500px
+    width:500px;
+    margin-left:5em;
 }
 
 footer{
@@ -86,9 +99,35 @@ section{
 
 h1{
     color: #FF0000;
-    text-align:center;
+    
 }
 
 main{
-    background-color: RGBA(0,0,0,.5)
+    background-color: RGBA(0,0,0,.5);
+    height:auto;
 }
+
+#bydepartment {
+    float: right;
+    width: 30%;
+    
+    
+}
+
+#staff {
+    float: left;
+    width: 68%;
+    border-right: 1px solid black;
+    margin:unset;
+}
+
+
+
+#clear{
+    clear: both;
+}
+
+li a:hover{
+    color:tomato;
+}
+

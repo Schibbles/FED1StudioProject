@@ -98,7 +98,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CSS\css\" />
     <Folder Include="JavaScript\" />
+    <Folder Include="_archive\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
